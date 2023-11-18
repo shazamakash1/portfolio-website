@@ -1,13 +1,21 @@
+import React, { Component } from 'react';
+import './App.css';
+import HeroSection from './components/HeroSection';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import WorkSection from './components/WorkSection';
 
-import './App.css'
-
-function App() {
-
-  return (
-    <>
-     <h1> Hello World</h1>
-    </>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <HeroSection />
+        <Header />
+        <WorkSection />
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
