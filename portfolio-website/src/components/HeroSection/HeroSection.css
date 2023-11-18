@@ -1,0 +1,21 @@
+.hero-section {
+    background-image: url('https://picsum.photos/1600/900');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-section__content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-section__content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }

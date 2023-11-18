@@ -1,0 +1,26 @@
+.header {
+    background-color: #222;
+    color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header__nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header__nav-item {
+    margin-right: 1rem;
+  }
+  
+  .header__nav-link {
+    text-decoration: none;
+    color: inherit;
+  }
